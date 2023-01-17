@@ -61,21 +61,22 @@
 		<!-- HERO -->
 		<header class="container">
 			<section class="row align-items-center m-5">
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<h1 class="display-3">Splendid Flowers for Any Occasion</h1>
 					<p>Hand-tied bouquets, venue dressing, flower jars</p>
 				</div>
 				<img
-					class="col-md-6"
+					class="col-lg-6"
 					src="./assets/img/hero-flower.webp"
 					alt="flower-bouquet"
 				/>
 			</section>
 		</header>
-		<!-- MAIN -->
+		<!--=========MAIN=========-->
 		<main>
-			<!-- SOLUTIONS -->
-			<section id="solutions" class="container vh-100 pt-5">
+			<!--=========SOLUTIONS=========-->
+
+			<section id="solutions" class="container pt-5">
 				<article class="row text-center mb-4">
 					<h2 class="display-5">Dahlia's Solutions</h2>
 					<p>
@@ -84,14 +85,16 @@
 					</p>
 				</article>
 
-				<article class="row row-cols-1 row-cols-md-3">
+				<!--=========SOLUTIONS-GALLERY=========-->
+
+				<article class="row row-cols-1 row-cols-lg-3">
 					<div class="col">
-						<div class="card border-0 p-3">
+						<div class="card border-0 p-3 mb-3">
 							<div class="card-img-top" style="height: 50vh">
 								<img
 									src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zmxvd2VyJTIwYm91cXVldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60"
 									alt="Flower on table"
-									class="card-img-top"
+									class="card-img-top object-fit-cover w-100 h-100"
 								/>
 							</div>
 							<div class="card-body">
@@ -105,11 +108,11 @@
 					</div>
 
 					<div class="col">
-						<div class="card border-0 p-3">
+						<div class="card border-0 p-3 mb-3">
 							<div class="card-img-top" style="height: 50vh">
 								<img
 									src="https://images.unsplash.com/photo-1525441273400-056e9c7517b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zmxvd2VyJTIwd2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60"
-									class="card-img-top"
+									class="card-img-top object-fit-cover w-100 h-100"
 									alt="Weeding decoration"
 								/>
 							</div>
@@ -128,7 +131,7 @@
 							<div class="card-img-top" style="height: 50vh">
 								<img
 									src="https://images.unsplash.com/photo-1521543832500-49e69fb2bea2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zmxvd2VyJTIwd2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60"
-									class="card-img-top"
+									class="card-img-top object-fit-cover w-100 h-100"
 									alt="Bride with flower bouquet"
 								/>
 							</div>
@@ -144,28 +147,36 @@
 				</article>
 			</section>
 
+			<!--=========ABOUT US=========-->
+
 			<section id="about" class="container vh-100 py-5">
-				<div class="row h-100">
-					<article class="col col-md-6 gap-5 position-relative">
-						<div style="width: 300px; height: 400px" class="position-relative">
+				<div class="row row-cols-1 h-100">
+					<!--=========ABOUT US - PICTURE =========-->
+
+					<article class="col col-lg-6 h-100 position-relative">
+						<div style="width: 19rem; height: 25rem">
 							<img
+								class="object-fit-cover w-100 h-100"
 								src="https://images.unsplash.com/photo-1583228858294-6745cb25969e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZsb3dlciUyMGJvdXF1ZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
 								alt=""
 							/>
 						</div>
 						<div class="frame"></div>
 						<div
-							style="width: 350px; height: 350px"
+							style="width: 22rem; height: 22rem"
 							class="position-absolute z-3"
 						>
 							<img
+								class="object-fit-cover w-100 h-100"
 								src="https://images.unsplash.com/photo-1596438503462-50dedbfd6f1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZsb3dlciUyMGJvdXF1ZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
 								alt=""
 							/>
 						</div>
 					</article>
 
-					<article class="col col-md-6 h-100">
+					<!--=========ABOUT US - TEXT =========-->
+
+					<article class="col col-lg-6">
 						<div class="d-flex flex-column h-100 justify-content-center">
 							<h2 class="display-5 text-center mb-5">
 								We are Dahlia's Flowers
@@ -187,6 +198,27 @@
 				</div>
 			</section>
 		</main>
+		<!--=========FOOTER=========-->
+		<footer class="row">
+			<section class="col">
+				<div
+					class="d-flex flex-column align-items-center gap-3 text-center border-danger border"
+				>
+					<p class="text-secondary w-50">
+						We put together unique bouquets and make splendid decorations for
+						any venues and events. Same-day delivery is available.
+					</p>
+					<div class="d-lg-flex align-items-center gap-2">
+						<i class="me-3 bi bi-facebook"></i>
+						<i class="me-3 bi bi-instagram"></i>
+						<i class="bi bi-youtube"></i>
+					</div>
+					<p class="text-secondary">
+						© 20223 Created by Weblium All rights Reserved
+					</p>
+				</div>
+			</section>
+		</footer>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
